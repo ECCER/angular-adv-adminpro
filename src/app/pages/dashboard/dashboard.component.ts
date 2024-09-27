@@ -3,16 +3,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-dashboard',
-  standalone: true,
-  imports: [
-    CommonModule,
-  ],
-  templateUrl: './dashboard.component.html',
-  styles: `
-    :host {
-      display: block;
-    }
-  `,
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  templateUrl: './dashboard.component.html'
 })
 export class DashboardComponent { }
